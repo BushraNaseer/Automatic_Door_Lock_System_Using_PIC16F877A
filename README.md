@@ -125,13 +125,13 @@ The general operating sequence is as follows:
 
 ## 🔬 Circuit Design and Simulation
 
-The circuit was designed using Proteus 8 Professional. The surviving original Proteus schematic illustrates the PIC16F877A interfacing with the matrix keypad and 16×2 LCD, together with the associated oscillator and reset circuitry.
+The circuit was designed using Proteus 8 Professional. The surviving original Proteus schematic illustrates the PIC16F877A interfacing with the 4×3 matrix keypad and 16×2 LCD, along with the associated oscillator and reset circuitry.
 
-The microcontroller firmware was originally developed in MPLAB using embedded C. The compiled program was loaded into the PIC16F877A simulation component in Proteus to test the system's operation.
+The microcontroller firmware was developed in embedded C using MPLAB X IDE. The source code was compiled using the MPLAB XC8 compiler to generate a HEX (`.hex`) file containing the compiled firmware.
 
-The original motor-driver and buzzer connections are not included in the surviving Proteus schematic.
+For simulation in Proteus, the generated HEX file was assigned to the **Program File** property of the PIC16F877A microcontroller component. The oscillator frequency was configured to match the circuit's crystal frequency, and the simulation was executed to test the system's operation.
 
-A reconstructed circuit schematic illustrating the complete system, including the L293D motor driver, DC motor, and buzzer, will be added separately. It will be identified as a reconstructed technical illustration rather than the original Proteus circuit.
+The surviving original Proteus schematic does not include the motor-driver and buzzer connections. A separate reconstructed circuit schematic illustrating the complete system, including the L293D motor driver, DC motor, and buzzer, will be provided. This illustration will be clearly identified as a reconstruction rather than the original Proteus schematic.
 
 ## 🔧 Physical Hardware Implementation
 
