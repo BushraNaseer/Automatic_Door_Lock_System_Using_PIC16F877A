@@ -178,7 +178,7 @@ PIC16F877A-Automatic-Door-Lock-System/
 └── LICENSE
 ```
 
-**Note:** The `src/main.c` file will contain the reconstructed embedded C implementation. The `images/` directory will contain the surviving original schematic and the separately labelled reconstructed circuit illustration. Original firmware and complete Proteus project files are unavailable.
+**Note:** The `src/main.c` file has the reconstructed embedded C code that was originally written in MPLAB. The `images/` directory contain the original schematic without the motor driver and the separately labelled reconstructed circuit illustration has all parts. Complete Proteus project files are unavailable.
 
 ## 🚀 Possible Future Improvements
 
