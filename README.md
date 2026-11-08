@@ -131,7 +131,7 @@ The microcontroller firmware was developed in embedded C using MPLAB X IDE. The 
 
 For simulation in Proteus, the generated HEX file was assigned to the **Program File** property of the PIC16F877A microcontroller component. The oscillator frequency was configured to match the circuit's crystal frequency, and the simulation was executed to test the system's operation.
 
-The surviving original Proteus schematic does not include the motor-driver and buzzer connections. A separate reconstructed circuit schematic illustrating the complete system, including the L293D motor driver, DC motor, and buzzer, will be provided. This illustration will be clearly identified as a reconstruction rather than the original Proteus schematic.
+The surviving original Proteus schematic does not include the motor-driver and buzzer connections. A separate reconstructed circuit schematic illustrating the complete system, including the L293D motor driver, DC motor, and buzzer is added. This illustration clearly identifies as a reconstruction rather than the original Proteus schematic.
 
 ## 🔧 Physical Hardware Implementation
 
